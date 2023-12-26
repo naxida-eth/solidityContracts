@@ -53,3 +53,25 @@ result
 
   1 passing (2s)
 ```
+
+
+```
+npx hardhat run scripts/deploy.js --network <network-name>
+
+连接到哪个网络
+```
+
+hardhat.config.ts中可以添加网络配置
+
+npx hardhat run scripts/deploy.js --network sepolia
+
+
+```
+Deploying contracts with the account: 0xc5f8E8B8035C87Cea9331B1B268FAe768Fe2b3EF
+Token address: 0x0842e142B4A15253960cc32b1Fd63B4d6CC4847B
+
+合约成功部署到 sepolia 测试网
+```
+
+
+主网测试可以用polygon
